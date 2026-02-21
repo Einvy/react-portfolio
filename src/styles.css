@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+/* HEADER STUFF AND STYLES */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+
+  border-bottom: 1px solid black;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+/* End */
