@@ -8,26 +8,22 @@ function Footer() {
       <p>Copyright {currentYear} John Ludlow</p>
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/john-ludlow-3333333333/">
-            LinkedIn
-          </a>
+          <a href="">LinkedIn</a>
         </li>
         <li>
-          <a href="https://www.instagram.com/john_ludlow/">Instagram</a>
+          <a href="">Instagram</a>
         </li>
         <li>
-          <a href="https://www.facebook.com/john.ludlow">Youtube</a>
+          <a href="">Youtube</a>
         </li>
         <li>
-          <a href="https://www.github.com/john_ludlow">GitHub</a>
+          <a href="">GitHub</a>
         </li>
         <li>
-          <a href="https://www.reddit.com/user/john_ludlow">
-            Business OmbrinStudios
-          </a>
+          <a href="">Business OmbrinStudios</a>
         </li>
         <li>
-          <a href="https://www.business.com/ombrinstudios">Business Vanyx</a>
+          <a href="">Business Vanyx</a>
         </li>
       </ul>
     </footer>
