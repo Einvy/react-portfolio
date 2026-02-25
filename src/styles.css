@@ -113,3 +113,49 @@ footer a {
   font-size: 1.2rem;
 }
 /* End */
+
+/* Projects */
+.Projects {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
+  border-bottom: 1px solid white;
+}
+
+.Projects h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.Project-title {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.Project-title h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.Project-title p {
+  font-size: 0.8rem;
+}
+
+.Project-title a {
+  font-size: 0.8rem;
+}
+
+.Project-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+  box-shadow: 0 4px 8px 0 rgb(251, 251, 251);
+  transition: 0.3s;
+}
+/* End */

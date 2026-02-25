@@ -8,9 +8,6 @@ function Footer() {
       <p>Copyright {currentYear} John Ludlow</p>
       <ul>
         <li>
-          <a href="">LinkedIn</a>
-        </li>
-        <li>
           <a href="">Instagram</a>
         </li>
         <li>

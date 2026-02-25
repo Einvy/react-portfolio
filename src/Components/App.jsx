@@ -3,12 +3,14 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Body from "./Body";
 import Skills from "./Skills";
+import Projects from "./Projects";
 function App() {
   return (
     <div>
-      <Header title="Under construction... coming soon" />
+      <Header title="Under Construction" />
       <Body />
       <Skills />
+      <Projects />
       <Footer />
     </div>
   );
