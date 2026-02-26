@@ -7,7 +7,7 @@ import Projects from "./Projects";
 function App() {
   return (
     <div>
-      <Header title="Under Construction" />
+      <Header title="John Ludlow Portfolio" />
       <Body />
       <Skills />
       <Projects />

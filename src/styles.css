@@ -12,6 +12,7 @@ body {
 
 h1 {
   color: white;
+  /* text-fill-color: transparent; */
 }
 
 li {
@@ -33,6 +34,12 @@ header {
   border-bottom: 1px solid white;
 }
 
+header h1 {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 header nav {
   display: flex;
   gap: 1rem;
