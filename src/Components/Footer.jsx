@@ -8,16 +8,16 @@ function Footer() {
       <p>Copyright {currentYear} John Ludlow</p>
       <ul>
         <li>
-          <a href="">Instagram</a>
+          <a href="https://www.instagram.com/woazfgbb/">Instagram</a>
         </li>
         <li>
-          <a href="">Youtube</a>
+          <a href="https://www.youtube.com/@Einvyy">Youtube</a>
         </li>
         <li>
-          <a href="">GitHub</a>
+          <a href="https://github.com/Einvy">GitHub</a>
         </li>
         <li>
-          <a href="">Business OmbrinStudios</a>
+          <a href="https://ombrinstudios.com/">Business OmbrinStudios</a>
         </li>
         <li>
           <a href="">Business Vanyx</a>
