@@ -5,6 +5,7 @@ import Body from "./Body";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Keyboard from "./Keyboard";
+import Books from "./Books";
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <Skills />
       <Projects />
       <Keyboard />
+      <Books />
       <Footer />
     </div>
   );
