@@ -6,6 +6,8 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Keyboard from "./Keyboard";
 import Books from "./Books";
+import Blogs from "./Blogs";
+
 function App() {
   return (
     <div>
@@ -15,6 +17,7 @@ function App() {
       <Projects />
       <Keyboard />
       <Books />
+      <Blogs />
       <Footer />
     </div>
   );
