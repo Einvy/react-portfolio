@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: red;
+  color: white; /* text color while selected */
+}
+
+::-moz-selection {
+  background-color: red;
+  color: white;
+}
 body {
   background-color: black;
   color: white;
