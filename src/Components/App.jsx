@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Keyboard from "./Keyboard";
 import Books from "./Books";
 import Blogs from "./Blogs";
+import Certs from "./Certs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Keyboard />
       <Books />
       <Blogs />
+      <Certs />
       <Footer />
     </div>
   );

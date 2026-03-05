@@ -386,3 +386,40 @@ footer a {
 .Blogs__error {
   color: #ff6b6b;
 }
+
+/* Certs */
+.Certs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid white;
+}
+#certs-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.Certs__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.Certs__list a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.certs-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End */
