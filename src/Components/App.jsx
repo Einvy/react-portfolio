@@ -12,7 +12,7 @@ import Certs from "./Certs";
 function App() {
   return (
     <div>
-      <Header title="John Ludlow Portfolio" />
+      <Header title="John's Portfolio" />
       <Body />
       <Skills />
       <Projects />
