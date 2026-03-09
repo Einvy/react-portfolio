@@ -8,6 +8,7 @@ import Keyboard from "./Keyboard";
 import Books from "./Books";
 import Blogs from "./Blogs";
 import Certs from "./Certs";
+import NootropicStack from "./NootropicStack";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Books />
       <Blogs />
       <Certs />
+      <NootropicStack />
       <Footer />
     </div>
   );
