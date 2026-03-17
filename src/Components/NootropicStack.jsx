@@ -86,6 +86,9 @@ function NootropicStack() {
               GFuel or Ghost energy (probably not needed but it tastes good)
             </a>
           </li>
+          <li>
+            <a href="#">Trying out Methylene Blue drops</a>
+          </li>
         </ul>
       </div>
     </section>
