@@ -21,7 +21,6 @@ function App() {
       <Books />
       <Blogs />
       <Certs />
-      <NootropicStack />
       <Footer />
     </div>
   );
