@@ -221,7 +221,7 @@ footer a {
   padding: 2rem;
   margin: 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgb(1, 80, 238);
+  box-shadow: 0 4px 8px 0 red;
   transition: 0.3s;
   flex: 1;
   min-width: 0;
