@@ -28,6 +28,7 @@ const book = {
     "D.Gray-Man",
     "Black Clover",
     "The Promised Neverland",
+    "A mind for numbers",
     "Many more books and managa/etc",
   ],
 };
