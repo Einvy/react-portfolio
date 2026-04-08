@@ -44,7 +44,7 @@ header {
 }
 
 header h1 {
-  background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+  background: linear-gradient(40deg, #ff1744, #6c2bff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -195,7 +195,7 @@ footer a {
   height: 25%;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgb(251, 251, 251);
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
   transition: 0.3s;
 }
 
@@ -221,7 +221,9 @@ footer a {
   padding: 2rem;
   margin: 2rem;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 red;
+  box-shadow:
+    3px 3px rgb(255, 255, 255),
+    -1em 0 0.4em rgb(56, 56, 56);
   transition: 0.3s;
   flex: 1;
   min-width: 0;

@@ -11,7 +11,7 @@ function Projects() {
             Creating websites aloing with other software that customers are
             interested in.
           </p>
-          <a href="#">View</a>
+          <a href="https://ombrinstudios.com/">View</a>
         </div>
 
         <div className="Project-inner">

@@ -9,15 +9,15 @@ function Header(props) {
           <li>
             <a href="#">Home</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#">About</a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a href="#">Contact</a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a href="#">Blog</a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>

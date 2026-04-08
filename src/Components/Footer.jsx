@@ -16,12 +16,6 @@ function Footer() {
         <li>
           <a href="https://github.com/Einvy">GitHub</a>
         </li>
-        <li>
-          <a href="https://ombrinstudios.com/">Business OmbrinStudios</a>
-        </li>
-        <li>
-          <a href="">Business Vanyx</a>
-        </li>
       </ul>
     </footer>
   );
