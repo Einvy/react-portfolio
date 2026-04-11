@@ -6,9 +6,9 @@ function Header(props) {
       <h1>{props.title}</h1>
       <nav>
         <ul>
-          <li>
+          {/* <li>
             <a href="#">Home</a>
-          </li>
+          </li> */}
           {/* <li>
             <a href="#">About</a>
           </li> */}
