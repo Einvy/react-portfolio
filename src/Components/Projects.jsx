@@ -15,7 +15,7 @@ function Projects() {
         </div>
 
         <div className="Project-inner">
-          <h3>Vanyx - Courses Website (under construction)</h3>
+          <h3> Courses Website (under construction)</h3>
           <p>
             Site for courses I create on a wide range of topics that relate to
             reverse engineering/programming/etc.

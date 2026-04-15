@@ -7,7 +7,7 @@ import Projects from "./Components/Projects";
 import Books from "./Components/Books";
 // import Blogs from "./Components/Blogs";
 import Certs from "./Components/Certs";
-import NootropicStack from "./Components/NootropicStack";
+// import NootropicStack from "./Components/NootropicStack";
 import Keyboard from "./Components/Keyboard";
 
 function App() {

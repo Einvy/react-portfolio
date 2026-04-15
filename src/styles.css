@@ -171,7 +171,8 @@ footer a {
   justify-content: center;
   padding: 2rem;
   gap: 1rem;
-  box-shadow: 0 4px 8px 0 rgb(251, 251, 251);
+  /* box-shadow: 0 4px 8px 0 rgb(251, 251, 251); */
+  border: 1px solid white;
   transition: 0.3s;
 }
 /* End */
@@ -200,7 +201,7 @@ footer a {
 }
 
 /* Books and manga */
-.Books__lists {
+/* .Books__lists {
   display: flex;
   flex-direction: row;
   align-items: stretch;
@@ -208,11 +209,9 @@ footer a {
   gap: 1rem;
   width: 100%;
   max-width: 800px;
+} */
 
-  /* border-bottom: 1px solid white; */
-}
-
-.Booksandmanga {
+/* .Booksandmanga {
   list-style: none;
   font-size: 1.2rem;
   font-weight: bold;
@@ -221,174 +220,47 @@ footer a {
   padding: 2rem;
   margin: 2rem;
   border-radius: 10px;
-  box-shadow:
-    3px 3px rgb(255, 255, 255),
-    -1em 0 0.4em rgb(56, 56, 56);
+  border: 1px solid white;
   transition: 0.3s;
   flex: 1;
   min-width: 0;
-}
+} */
 
-/* Blogs */
-.Blogs {
-  padding: 2rem 5rem;
-  /* border-bottom: 1px solid white; */
+.Books__lists {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-
-.Blogs h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-}
-
-.Blogs__list-wrapper {
-  max-width: 600px;
-}
-
-.Blogs__list {
+.Booksandmanga {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+  padding: 1.5rem;
+  margin: 0;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  border-top: 3px solid #ff0000;
+  flex: 1;
+  min-width: 0;
+  transition: 0.3s;
 }
-
-.Blogs__post-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 1rem 1.25rem;
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
+.Booksandmanga li {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border-left: 3px solid #ff0000;
+  margin-bottom: 6px;
+  background-color: black;
   color: white;
-  font-size: 1rem;
-  font-family: inherit;
-  cursor: pointer;
-  text-align: left;
-  transition:
-    border-color 0.2s,
-    background 0.2s;
-}
-
-.Blogs__post-link:hover,
-.Blogs__post-link:focus {
-  border-color: white;
-  background: rgba(255, 255, 255, 0.05);
-  outline: none;
-}
-
-.Blogs__post-date {
-  font-size: 0.875rem;
-  opacity: 0.8;
-}
-
-.Blogs__article {
-  max-width: 720px;
-}
-
-.Blogs__back {
-  margin-bottom: 1.5rem;
-  padding: 0.5rem 0;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1rem;
-  font-family: inherit;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.Blogs__back:hover,
-.Blogs__back:focus {
-  opacity: 0.9;
-  outline: none;
-}
-
-.Blogs__article-header {
-  margin-bottom: 1.5rem;
-}
-
-.Blogs__article-title {
-  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 0.25rem;
-}
-
-.Blogs__article-date {
-  font-size: 0.875rem;
-  opacity: 0.8;
-}
-
-.Blogs__markdown {
   font-size: 1rem;
-  line-height: 1.6;
+  transition: 0.2s;
 }
 
-.Blogs__markdown h1,
-.Blogs__markdown h2,
-.Blogs__markdown h3 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+.Booksandmanga li:hover {
+  background-color: #1a1a1a;
+  border-left-color: #00ff00;
+  transform: translateX(4px);
+  cursor: pointer;
 }
-
-.Blogs__markdown h1 {
-  font-size: 1.5rem;
-}
-.Blogs__markdown h2 {
-  font-size: 1.25rem;
-}
-.Blogs__markdown h3 {
-  font-size: 1.1rem;
-}
-
-.Blogs__markdown p {
-  margin-bottom: 1rem;
-}
-
-.Blogs__markdown ul,
-.Blogs__markdown ol {
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-}
-
-.Blogs__markdown li {
-  list-style: revert;
-}
-
-.Blogs__markdown code {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  font-size: 0.9em;
-}
-
-.Blogs__markdown pre {
-  background: rgba(255, 255, 255, 0.08);
-  padding: 1rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  margin-bottom: 1rem;
-}
-
-.Blogs__markdown pre code {
-  background: none;
-  padding: 0;
-}
-
-.Blogs__markdown a {
-  text-decoration: underline;
-}
-
-.Blogs__loading,
-.Blogs__error {
-  margin-top: 1rem;
-}
-
-.Blogs__error {
-  color: #ff6b6b;
-}
-
 /* Certs */
 .Certs {
   display: flex;
@@ -417,6 +289,7 @@ footer a {
   background-color: black;
   padding: 1rem;
   border-radius: 10px;
+  border: 1px solid white;
 }
 
 .certs-list {
