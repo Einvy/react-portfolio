@@ -2,8 +2,8 @@ import React from "react";
 
 function Body() {
   return (
-    <section className="Middle">
-      <h1>About</h1>
+    <section className="Middle" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
       <div>
         <p>
           Hello, my name is john and currently I am a student at ASU. I have a

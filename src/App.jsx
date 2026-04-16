@@ -14,13 +14,15 @@ function App() {
   return (
     <div>
       <Header title="John's Portfolio" />
-      <Body />
-      <Skills />
-      <Projects />
-      <Keyboard />
-      <Books />
-      {/* <Blogs /> */}
-      <Certs />
+      <main>
+        <Body />
+        <Skills />
+        <Projects />
+        <Keyboard />
+        <Books />
+        {/* <Blogs /> */}
+        <Certs />
+      </main>
       <Footer />
     </div>
   );

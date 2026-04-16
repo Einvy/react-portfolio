@@ -6,11 +6,21 @@ function Certs() {
       <h2 id="certs-heading">Certs and Coding Profiles</h2>
       <div className="certs-list">
         <ul className="Certs__list">
-          <a href="#">hackerrank</a>
-          <a href="#">leetcode</a>
-          <a href="#">codewars</a>
-          <a href="#">tryhackme</a>
-          <a href="#">hackthebox</a>
+          <li>
+            <a href="#">hackerrank</a>
+          </li>
+          <li>
+            <a href="#">leetcode</a>
+          </li>
+          <li>
+            <a href="#">codewars</a>
+          </li>
+          <li>
+            <a href="#">tryhackme</a>
+          </li>
+          <li>
+            <a href="#">hackthebox</a>
+          </li>
         </ul>
       </div>
     </section>
