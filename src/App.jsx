@@ -9,6 +9,7 @@ import Books from "./Components/Books";
 import Certs from "./Components/Certs";
 // import NootropicStack from "./Components/NootropicStack";
 import Keyboard from "./Components/Keyboard";
+import Resume from "./Components/Resume";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Books />
         {/* <Blogs /> */}
         <Certs />
+        <Resume />
       </main>
       <Footer />
     </div>
