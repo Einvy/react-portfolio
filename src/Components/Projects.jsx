@@ -22,6 +22,15 @@ function Projects() {
           </p>
           <a href="#">View</a>
         </div>
+        <div className="Project-inner">
+          <h3>Qr Code generator</h3>
+          <p>
+            Qr code generator that allows you to generate a qr code for a given
+            text. It offers static and also dynamic qr codes. Depending on what
+            you need it for/want it for.
+          </p>
+          <a href="#">View</a>
+        </div>
       </div>
     </section>
   );
