@@ -29,7 +29,7 @@ function Projects() {
             text. It offers static and also dynamic qr codes. Depending on what
             you need it for/want it for.
           </p>
-          <a href="#">View</a>
+          <a href="https://q-rgen-ashy.vercel.app/">View</a>
         </div>
       </div>
     </section>
