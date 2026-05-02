@@ -16,6 +16,9 @@ function Footer() {
         <li>
           <a href="https://github.com/Einvy">GitHub</a>
         </li>
+        <li>
+          <a href="https://app.joinhandshake.com/profiles/gpe7qv">Handshake</a>
+        </li>
       </ul>
     </footer>
   );

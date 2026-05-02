@@ -31,6 +31,14 @@ function Projects() {
           </p>
           <a href="https://q-rgen-ashy.vercel.app/">View</a>
         </div>
+        <div className="Project-inner">
+          <h3>Terminal note taking app</h3>
+          <p>
+            Terminal note taking app that also helps you with learning things
+            through repetition.
+          </p>
+          <a href="#">View</a>
+        </div>
       </div>
     </section>
   );
